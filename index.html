@@ -4,10 +4,24 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>understanding-a2</title>
+    <title>Understanding Assignment 2 — 1DV607</title>
   </head>
   <body>
-    <div id="app"></div>
+    <header class="site-header">
+      <div class="site-header-inner">
+        <h1>Understanding Assignment 2 — 1DV607</h1>
+        <p>A 64-step study guide to Object-Oriented Design and Implementation.</p>
+      </div>
+    </header>
+    <div class="workspace">
+      <nav id="chapter-nav" class="chapter-nav" aria-label="Chapters">
+        <p class="nav-heading">Chapters</p>
+        <ol id="chapter-list" class="chapter-list"></ol>
+      </nav>
+      <main id="reading" class="reading">
+        <article id="chapter" class="chapter"></article>
+      </main>
+    </div>
     <script type="module" src="/src/main.ts"></script>
   </body>
 </html>
